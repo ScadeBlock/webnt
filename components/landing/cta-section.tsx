@@ -61,25 +61,8 @@ export function CtaSection() {
                   Đèo Ô Quy Hồ đang chờ đón bạn với những trải nghiệm tuyệt vời.
                 </p>
 
-                <div className="flex flex-col sm:flex-row items-start gap-4">
-                  <Button
-                    size="lg"
-                    className="bg-foreground hover:bg-foreground/90 text-background px-8 h-14 text-base rounded-full group"
-                  >
-                    Đặt tour ngay
-                    <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
-                  </Button>
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="h-14 px-8 text-base rounded-full border-foreground/20 hover:bg-foreground/5"
-                  >
-                    Liên hệ tư vấn
-                  </Button>
-                </div>
-
-                <p className="text-sm text-muted-foreground mt-8">
-                  Hotline: 1900 xxxx - Hỗ trợ 24/7
+                <p className="text-sm text-muted-foreground">
+                  Khám phá vẻ đẹp hoang sơ của Tây Bắc Việt Nam.
                 </p>
               </div>
 

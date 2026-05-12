@@ -17,7 +17,6 @@ const footerLinks = {
   ],
   "Liên hệ": [
     { name: "Về chúng tôi", href: "#" },
-    { name: "Đặt tour", href: "#" },
     { name: "Hỗ trợ", href: "#" },
     { name: "Góp ý", href: "#" },
   ],
@@ -105,7 +104,7 @@ export function FooterSection() {
         {/* Bottom Bar */}
         <div className="py-8 border-t border-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; 2025 Đèo Ô Quy Hồ. Tất cả quyền được bảo lưu.
+            &copy; 2025 Hoàng Đình Đạt & Lê Nguyễn Thành Luân.
           </p>
 
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
