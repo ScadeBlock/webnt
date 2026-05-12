@@ -6,7 +6,7 @@ const footerLinks = {
   "Khám phá": [
     { name: "Điểm đến", href: "#features" },
     { name: "Hành trình", href: "#how-it-works" },
-    { name: "Dịch vụ tour", href: "#pricing" },
+    // { name: "Dịch vụ tour", href: "#pricing" },
     { name: "Ẩm thực", href: "#integrations" },
   ],
   "Thông tin": [
@@ -15,22 +15,22 @@ const footerLinks = {
     { name: "Giao thông", href: "#" },
     { name: "Lưu trú", href: "#" },
   ],
-  "Liên hệ": [
-    { name: "Về chúng tôi", href: "#" },
-    { name: "Hỗ trợ", href: "#" },
-    { name: "Góp ý", href: "#" },
-  ],
-  "Pháp lý": [
-    { name: "Điều khoản", href: "#" },
-    { name: "Bảo mật", href: "#" },
-    { name: "An toàn", href: "#security" },
-  ],
+  // "Liên hệ": [
+  //   { name: "Về chúng tôi", href: "#" },
+  //   { name: "Hỗ trợ", href: "#" },
+  //   { name: "Góp ý", href: "#" },
+  // ],
+  // "Pháp lý": [
+  //   { name: "Điều khoản", href: "#" },
+  //   { name: "Bảo mật", href: "#" },
+  //   { name: "An toàn", href: "#security" },
+  // ],
 };
 
 const socialLinks = [
-  { name: "Facebook", href: "#" },
-  { name: "Instagram", href: "#" },
-  { name: "YouTube", href: "#" },
+  // { name: "Facebook", href: "#" },
+  // { name: "Instagram", href: "#" },
+  // { name: "YouTube", href: "#" },
 ];
 
 export function FooterSection() {
@@ -104,13 +104,13 @@ export function FooterSection() {
         {/* Bottom Bar */}
         <div className="py-8 border-t border-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; 2025 Hoàng Đình Đạt & Lê Nguyễn Thành Luân.
+            &copy; 2026 Hoàng Đình Đạt & Lê Nguyễn Thành Luân.
           </p>
 
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#4ade80]" />
-              Thời tiết tốt - Sẵn sàng đón khách
+              Sản phẩm STEM - Tin học
             </span>
           </div>
         </div>

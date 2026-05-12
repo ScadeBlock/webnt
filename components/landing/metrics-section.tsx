@@ -267,7 +267,7 @@ export function MetricsSection() {
         </div>
 
         {/* Image */}
-        <div className={`w-full mb-0 transition-all duration-1000 delay-200 ${
+        {/* <div className={`w-full mb-0 transition-all duration-1000 delay-200 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}>
           <img
@@ -275,7 +275,7 @@ export function MetricsSection() {
             alt="Cảnh đẹp Ô Quy Hồ"
             className="w-full h-auto object-cover rounded-lg"
           />
-        </div>
+        </div> */}
 
         {/* Metrics grid */}
         <div className="grid lg:grid-cols-3 gap-6 mt-12">
